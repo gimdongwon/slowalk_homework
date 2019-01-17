@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.slide-img {
+    height: 900px;
+}
+
+.header {
+    /* background-image: url(https://www.theteams.kr/includes/uploads/company_profile/info_pic/9ed2fff69789ba1b520d5900662db6d2_3.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%; */
+    line-height: 40px;
+    margin: 0 50px 0 50px;
+}
+
+.title {
+    float: left;
+}
+
+
+/* 시멘틱 테그 */
+
+.readable-hidden {
+    font-size: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb>li {
+    float: left;
+    margin-left: 15px;
+}
+
+.gnb>li>a {
+    text-decoration: none;
+    color: #181818
+}
+
+li {
+    list-style: none;
+}
+
+
+/* about section */
+
+.about {
+    background-color: #f0f8ff;
+    padding-top: 50px;
+}
+
+.section-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about_title {
+    text-align: center;
+    margin: 0 100px 50px 100px;
+}
+
+.about_article_img>article>img {
+    width: 200px;
+}
+
+.about_article_img>article {
+    width: 600px;
+    float: left;
+    text-align: center;
+}
+
+.about_article_img-first {
+    padding-right: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    width: 300px;
+    margin: 50px 0 150px 0;
+}
+
+
+/* benefit section */
+
+.benefit_title {
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+.benefit_item>.benefit_item_article {
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin: 0 20px 100px 20px;
+}
+
+.benefit_item_article>img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.benefit_item_article>caption:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-bottom: solid #881e1e;
+}
+
+.benefit_item {
+    height: 500px;
+}
+
+
+/* apply section */
+
+.apply {
+    background-color: #f0f8ff;
+    padding: 100px 0 0 0;
+}
+
+.apply_title {
+    text-align: center;
+}
+
+.apply_subCaption {
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.apply_item_article {
+    text-align: center;
+    float: left;
+    margin: 0 100px 0 100px;
+}
+
+.apply_item_article>img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.arrow {
+    width: 50px;
+}
+
+
+/* ourstory-section */
+
+.ourstory_title {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.ourstory_card {
+    float: left;
+    margin: 0 50px 0px 50px;
+}
+
+.ourstory_card>img {
+    width: 300px;
+}
+
+
+/* subscribe section */
+
+.subscribe {
+    background-color: #f0f8ff;
+}
