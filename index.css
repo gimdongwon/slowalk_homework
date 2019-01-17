@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0;
 }
 
@@ -69,6 +69,14 @@ li {
     margin: 0 100px 50px 100px;
 }
 
+.push-down {
+    margin: 100px 0 100px 0;
+}
+
+.sub-push-down {
+    padding: 100px;
+}
+
 .about_article_img>article>img {
     width: 200px;
 }
@@ -89,7 +97,6 @@ li {
 
 .btn {
     width: 300px;
-    margin: 50px 0 150px 0;
 }
 
 
@@ -118,6 +125,10 @@ li {
     width: 30px;
     height: 3px;
     border-bottom: solid #881e1e;
+}
+
+.benefit_item_article>caption>p {
+    padding: 50px 0 50px 0;
 }
 
 .benefit_item {
@@ -178,4 +189,32 @@ li {
 
 .subscribe {
     background-color: #f0f8ff;
+    text-align: center;
+}
+
+.subscribe_title {
+    padding-bottom: 20px;
+}
+
+.form-row {
+    padding-top: 20px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.subscribe_form {
+    width: 500px;
+    margin-left: 400px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    float: right;
+}
+
+.footer {
+    margin: 50px 0 100px 0;
+    text-align: center;
 }
